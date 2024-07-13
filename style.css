@@ -1,0 +1,231 @@
+
+body {
+    margin: 0;
+}
+
+.content {
+    padding: 10px;
+    gap: 75px;
+    min-height: 200px;
+}
+div.content{
+    align-items: stretch;
+}
+
+.bubble {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    background-color: rgb(170, 160, 160);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    margin-right: 10px;
+    }
+
+
+    .profile {
+        border: 2px solid;
+        margin-bottom: 10px;
+        padding: 0px;
+        min-height: 200px;
+        min-width: 300px;
+        flex: 1;
+
+    }
+
+    .education {
+        border: 2px solid;
+        
+        padding: 0px;
+    
+
+    }
+
+    .request {
+        border: 2px solid;
+        margin: 10px;
+        padding: 0px;
+        min-height: 100px;
+        flex: 1;
+        justify-content: space-between;
+        
+
+    
+    }
+    
+    .your-connections {
+
+        border: 2px solid;
+        margin: 10px;
+        padding: 0px;
+        min-height: 100px;
+        flex: 1;
+        justify-content: space-between;
+        
+        flex-direction: row;
+        justify-content: space-between;
+        border: 2px solid;
+        margin: 10px;
+        padding: 0px;
+        min-height: 200px;
+        min-width: 300px;
+        flex: 1;
+        width: 100%;
+    }  
+
+
+    .header1  {
+        background-color: aqua;
+        height: 75px;
+        position: relative;
+    }
+
+
+    .header2 {
+        
+    
+        background-color:black;
+        min-height: 20px;
+        color: white;
+        width: 100%;
+    }
+
+    .header3 {
+        background-color:black;
+        min-height: 20px;
+        color: white;
+        width: 100%;
+    }
+
+    .header4 {
+        background-color:black;
+        min-height: 20px;
+        color: white;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        background-color: black;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        flex-direction: row;
+    
+    }
+
+    nav ul li {
+        list-style: none;
+        
+    }
+
+    
+
+    img.user_circle{
+        position: absolute;
+        width: 75px;
+        top: 25px;
+        left: 25px;
+        border-radius: 50%;
+        
+    }
+
+    img[src="./icons/gear.png"] {
+        width: 20px; /* Adjust as needed */
+        height: 20px; /* Adjust as needed */
+    }
+    
+    img[src="./icons/map-marker.png"] {
+        width: 20px; /* Adjust as needed */
+        height: 20px; /* Adjust as needed */
+    }
+
+    img[src="./icons/close-circle.png"] {
+        width: 20px; /* Adjust as needed */
+        height: 20px; /* Adjust as needed */
+        justify-items: center;
+    }
+    
+    img[src="./icons/accept-circle.png"] {
+        width: 20px; /* Adjust as needed */
+        height: 20px; /* Adjust as needed */
+        justify-content: space-evenly;
+    }
+    
+    
+
+    h2{
+        margin: 0;
+    }
+    
+    
+    .container {
+        display: flex;
+        
+        padding: 3rem 6.5rem;
+        gap: 1.25rem;
+    }
+    
+    aside {
+        min-height: 100px;
+        flex: 2;
+        flex-direction: column;
+        padding: 20px;
+        gap: 2rem;
+        
+
+    }
+
+    main {
+        flex: 2;
+        flex-direction: column;
+        padding: 15px;
+        min-height: 120px;
+        gap: 2rem;
+    }
+
+    .box1 {
+        width: 100%;
+        margin: 0 auto;
+        font-weight: bold;
+        
+    }
+
+    .box2{
+        
+        font-weight: bold;
+    }
+
+    .box3 {
+        width: 100%;
+        font-weight: bold;
+        
+    }
+
+    .box4 {
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .accept-circle {
+        justify-content: space-between;
+    }
+    
+    
